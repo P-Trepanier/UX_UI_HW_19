@@ -1,0 +1,289 @@
+body {
+  background: url(..//images/henry-co-tqu0IOMaiU8-unsplash.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+header {
+  background-color: #00A880;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  /* background-color: #EBEBEB; */
+  /* background: url(..//images/henry-co-tqu0IOMaiU8-unsplash.jpg);   */
+  /* background-repeat: no-repeat; */
+  padding: 20px 15px;
+}
+
+
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.content img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.content p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+button {
+  padding: 15px;
+  background-color: #d4af37;
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: #00A880;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+.myWork h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 00px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexItem {
+  flex-direction: row;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding-left: 50px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flexItem p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2----------------2----------------2----------------2----------------2 */
+
+/*   MY SKILLS   ------------------------------------------------*/
+.header2 {
+  /* outline: dashed red 0px; */
+}
+.mySkills {
+  background-color: #00A880;
+  outline: dashed red 0px;
+  width: auto;
+}
+.mySkills h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #00A880;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  grid-column-gap: 20px;
+  outline: dashed red 0px;
+}
+.grid-container2 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.99);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.mySkills img {
+  max-height: 250px;
+}
+
+/*   MY WORK   ------------------------------------------------*/
+.myWork {
+  background-color: #00A880;
+    outline: dashed red 0px;
+}
+.myWork h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #00A880; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  grid-column-gap: 20px;
+  outline: dashed red 0px;
+}
+.grid-container3 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.99);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.myWork img {
+  max-height: 250px;
+}
+
+
+
+.footer {
+  padding-top: 20px;
+}
+
+.grid-item3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .25s ease-in;
+}
+.grid-item3:hover {
+  filter: none;
+  -webkit-filter: graysclae(0);
+  -webkit-transition: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600){
+/* adjusted css here ??? */
+/*   MY WORK   ------------------------------------------------*/
+.myWork {
+  background-color: #00A880;
+    outline: dashed red 0px;
+}
+.myWork h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #00A880; */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  grid-column-gap: 5px;
+  outline: dashed red 0px;
+}
+.grid-container3 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.99);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.myWork img {
+  max-height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
